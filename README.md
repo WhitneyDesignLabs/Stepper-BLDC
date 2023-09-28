@@ -31,6 +31,7 @@ channel_x.add_motor(motor_b, direction_multiplier=1)
 
 
 channels = [channel_x]
+
 Example 2: Dual Channel Configuration
 In this example, two channels are defined, each controlling two motors. This can be representative of a scenario like a 3D printer where each axis can be controlled by a different channel.
 
@@ -66,4 +67,5 @@ channel_y.add_motor(motor_d, direction_multiplier=1)
 
 
 channels = [channel_x, channel_y]
+
 In each configuration, after defining the channels and mapping the motors, the program will listen to the step/dir signals and control the respective motors accordingly.
